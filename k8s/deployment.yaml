@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: gitops-app
-          image: siddhuge/gitops-app:deb6ee46e46ce83426a6f7bc6a5aee2227fae01c
+          image: siddhuge/gitops-app:4bd21583d6f0f7d0e7b70998ab5f42195771fc74
           ports:
             - containerPort: 3000
           resources:
